@@ -40,5 +40,6 @@
         android:layout_height="wrap_content"
         android:text="@string/asynctask"
         tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="265dp" />
+        tools:layout_editor_absoluteY="265dp"
+        android:onClick="abrirAsync"/>
 </LinearLayout>

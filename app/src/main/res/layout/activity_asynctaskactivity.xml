@@ -24,7 +24,7 @@
             android:id="@+id/calcularFactorialHandler"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="calcularOperacion"
+            android:onClick="calcularFactorial"
             android:text="Calcular factorial" />
 
     </LinearLayout>

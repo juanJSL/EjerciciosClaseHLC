@@ -26,4 +26,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, HandlerActivity.class);
         startActivity(i);
     }
+
+    public void abrirAsync(View v){
+        Intent i = new Intent(this, asynctaskactivity.class);
+        startActivity(i);
+    }
 }
