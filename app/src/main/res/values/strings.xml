@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EjerciciosClaseHLC</string>
+    <string name="activityrunOnUiThread">Activity.runOnUiThread(Runnable)</string>
+    <string name="viewPost">View.post(Runnable)</string>
+    <string name="androidOsHandler"> android.os.Handler</string>
+    <string name="asynctask">Asynctask</string>
+</resources>

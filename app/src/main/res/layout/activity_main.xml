@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jj.ejerciciosclasehlc.MainActivity">
+
+    <Button
+        android:id="@+id/activityRunOnUiThreadBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activityrunOnUiThread"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:onClick="abrirRunOnUi"/>
+
+    <Button
+        android:id="@+id/androidOsHandlerBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/androidOsHandler"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="101dp"
+        android:onClick="abrirHandler"/>
+
+    <Button
+        android:id="@+id/viewPostBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/viewPost"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="192dp"
+        android:onClick="abrirPost"/>
+
+    <Button
+        android:id="@+id/asynctaskBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/asynctask"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="265dp" />
+</LinearLayout>
